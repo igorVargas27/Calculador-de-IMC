@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="calculadora de pixel art_ ícone de vetor de item de escola para jogo de 8 bits em fundo branco.jpg">
+    <script src="calculadora.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <h3>Aqui você saberá qual é o seu Imc (Índice de Massa Corporal), siga os passos para fazer o cálculo: </h3>
+        </header>
+        <!--Navegação-->
+       <section>
+        <h2>Como calcular seu IMC: </h2>
+        <article>
+            <ol>
+                <li><a>Insira a sua altura no campo Altura</a></li>
+                <li><a>Insira seu peso no campo Peso</a></li>
+                <li><a>Selecione o botão de Calcular</a></li>
+            </ol>
+        </article>
+        </section>
+    <!--Inserção de Dados-->
+        <section>
+        <label for="altura">Altura (m): </label>
+        <input type="number" id="altura">
+        |
+        <label for="peso">Peso (Kg): </label>
+        <input type="number" id="peso">
+        <br>
+        <br>
+        <p id="resultado"></p>
+        <button onclick="calcularImc()">Calcular</button>
+        </section>
+</body>
+</html>
