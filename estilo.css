@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #10001f;
+    background: linear-gradient(
+        135deg,
+        #9600FF 0%,
+        #AEBAF8 50%,
+        #9600FF 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+}
+/*header*/
+header{
+    padding: 20px;
+    
+    color: #fafafa;
+    text-align: center;
+    color: #111111;
+    
+}
+
+header h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+}
+header p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+header nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li a{
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*section*/
+section{
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #faf9f6;
+}
+
+section h2{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+article nav ol li{
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input{
+    padding: 3px;
+    margin: 10px auto;
+    box-shadow:  0 4px 10 px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: #D0FFEA;
+    color: #2c2c2c;
+}
